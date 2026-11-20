@@ -1,0 +1,27 @@
+# ---- secrets / sessions (NEVER commit) ----
+cookies.json
+cookies*.json
+cookie*.json
+cookie.txt
+curl.txt
+*.har
+
+# ---- generated content ----
+books/
+images/
+*.epub
+*.pdf
+manifest.json
+segments/
+pages/
+_render.html
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.log
