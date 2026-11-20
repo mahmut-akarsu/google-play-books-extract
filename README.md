@@ -89,7 +89,7 @@ python gpb.py --book-id <BOOK_ID> --authuser 0 --cookies cookies.json --out book
 ```
 
 `<BOOK_ID>` is the `id=` value in the reader URL, e.g.
-`https://play.google.com/books/reader?id=MysZEgAAQBAJ` → `MysZEgAAQBAJ`.
+`https://play.google.com/books/reader?id=ABC123XYZ` → `ABC123XYZ`.
 
 Run individual stages with `--stages`:
 
